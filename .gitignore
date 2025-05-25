@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# Secrets
+*.db
+.env
+*.key
+*.pem
+credentials.yaml
+
 # Distribution / packaging
 .Python
 build/
@@ -173,3 +180,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 02-Experiment_tracking/mlflow.db
+*.db
